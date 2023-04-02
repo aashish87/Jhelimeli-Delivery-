@@ -150,7 +150,7 @@
 
       
 
-      /* Styling for the "Order now" button */
+      /* Styling for the "Submit" button */
 
       a.button {
 
@@ -280,11 +280,33 @@
 
     <main>
 
-      <h2>Welcome to Jhelimeli Delivery</h2>
+    <h2>Jhelimeli Delivery</h2>
 
-      <p>We deliver delicious food right to your doorstep!</p>
+    <form action="delivery-handler.php" method="POST">
 
-      <a href="path/to/delivery-form.html">Order now</a>
+      <label for="name">Name:</label>
+
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone:</label>
+
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="address">Address:</label>
+
+      <textarea id="address" name="address" required></textarea><br><br>
+
+      <label for="delivery">Delivery Instructions:</label>
+
+      <textarea id="delivery" name="delivery"></textarea><br><br>
+
+      <input type="submit" value="Submit">
+
+    </form>
 
     </main>
 
@@ -315,3 +337,26 @@
   </body>
 
 </html>
+
+
+
+      
+
+      
+
+      
+
+        
+
+      
+
+
+        
+
+        
+
+    
+
+
+
+
