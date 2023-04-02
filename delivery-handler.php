@@ -42,9 +42,9 @@
 
   require_once '/path/to/twilio-php/autoload.php';
 
-  $sid = 'YOUR_TWILIO_ACCOUNT_SID';
+  $sid = 'ACc6852fb86476a466b861ef735190ec7c';
 
-  $token = 'YOUR_TWILIO_AUTH_TOKEN';
+  $token = 'd4509c76bbbd129173bd38ebbe05b9ad';
 
   $client = new Twilio\Rest\Client($sid, $token);
 
@@ -69,10 +69,3 @@
   header("Location: thank-you.html");
 
 ?>
-
-
-
-
-
-    
-
